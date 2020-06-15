@@ -1,0 +1,49 @@
+body{
+ /*background-color:purple;*/
+ background: url("../img3/question.jpg");
+overflow-x: hidden;
+}
+
+h1{
+    color:transparent;
+    font-size:4.2rem;
+    text-shadow: 3px 3px 2px red;
+    -webkit-text-stroke:1px skyblue;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+
+
+    clear: both;
+}
+.content{
+margin-top:5%;    
+}
+hr{
+    color:blue;
+    width:10%;
+    border-style: dotted;
+}
+h2{
+    color:yellow;
+    text-decoration: underline;
+    font-size:2.2rem;
+}
+p{
+    color:white;
+    font-weight:300;
+    font-size:1.2rem;
+}
+h3{
+    color:lightblue;
+}
+ul{
+    color:rgb(202, 184, 184);
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+@media screen and (max-width:1200px)
+{
+    h1{
+        font-size:3rem;
+    }
+}
