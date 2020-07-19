@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotUI - Hello World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css" />
+    <!-- Bootstrap CSS cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <style>
+html,body {
+  /* background-color: rgb(29, 26, 26); */
+  overflow-x: hidden;
+  width: 100%;
+  background-color: black;
+}
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9e7d7d1f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9296c2;
+}
+
+.botui-container {
+  background-color: inherit;
+  position: fixed;
+  height: 100%;
+  padding: 0px;
+  left: 0;
+  overflow: auto;
+}
+
+.botui-messages-container {
+}
+
+.botui-actions-container {
+  padding: 0px 30px;
+}
+
+.botui-message {
+
+}
+
+.botui-message-content.text {
+  background-color:red;
+  color: white;
+}
+
+.botui-message-content.human {
+  background-color: blue;
+  color:white;
+}
+
+
+
+button.botui-actions-buttons-button {
+  margin-top: 0px;
+  border-bottom-right-radius: 1.3em;
+  border-top-left-radius: 1.3em;
+  border-bottom-left-radius: 1.3em;
+  border-top-right-radius: 1.3em;
+  background-color: #0099ff;
+}
+.button{
+  border-radius:20px;
+            
+}
+
+#result {
+  display: none;
+}
+    </style>
+  </head>
+  <body>
+    <div class="botui-app-container" id="hello-world">
+      <bot-ui></bot-ui>
+    </div>
+    <div class="result-box" id="result"></div>
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script>
+    <script src="app.js">
+     
+    </script>
+  </body>
+</html>
