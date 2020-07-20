@@ -5,6 +5,7 @@ body{
     width:100%;
     height:100%;    
     overflow-x: hidden;
+    overflow-y: hidden;
     
    /* display:flex;
     flex-wrap: wrap;*
@@ -558,7 +559,7 @@ font-weight:bolder;
     100%{
         opacity:1;
         top:10px;
-        left:0;
+        left:10px;
     }
 }
 @keyframes second
@@ -576,7 +577,7 @@ font-weight:bolder;
     100%{
         opacity:1;
         top:410px;
-        left:0;
+        left:10px;
     }
     
     
@@ -597,7 +598,7 @@ font-weight:bolder;
     100%{
         opacity:1;
         top:820px;
-        left:0;
+        left:10px;
         
     }
 }
@@ -608,6 +609,9 @@ font-weight:bolder;
     left:0px;
   
 
+}
+.symptomps-images h6{
+    margin-left:50px;
 }
 .content2 h2{
     color:blue;
@@ -702,6 +706,10 @@ font-weight:bolder;
 h5{
     font-size:2.5rem;
     margin-left:-5%;
+}
+.footer{
+    margin-top:92%;
+    padding:23px;
 }
 }
 
@@ -929,6 +937,10 @@ h3{
         height:50%;
         width:50%;
     }
+    .footer{
+        margin-top:68%;
+        padding:23px;
+    }
 }
 @media screen and (min-width:650px) and (max-width:1200px)
 {
@@ -1123,6 +1135,10 @@ h3{
     height:50%;
     width:50%;
 }
+.footer{
+    margin-top:115%;
+    padding:43px;
 }
-/* section-1 */
+}
+
 
