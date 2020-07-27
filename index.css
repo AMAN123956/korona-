@@ -630,10 +630,16 @@ font-weight:bolder;
     font-size:1.2em;
     width:100%;
     margin-left:5%;
-    
     margin-top:7%;
-
 }
+.transmission{
+    margin-left:15px;
+    color:red;
+    font-size:33px;
+    }
+    .trans-2{
+        margin-left:15px;
+    }
 #one{
     margin-top:5%;
 }
@@ -672,21 +678,22 @@ font-weight:bolder;
 .safe{
     font-size:20px;
     text-align:left;
-    margin-left:5%;
+    margin-left:8%;
 }
 .safe p{
-    font-size:15px;
-    margin-left:3%;
+    font-size:17px;
+    margin-left:1%;
+    margin-top:2%;
 }
 .safe li{
     color:white;
     margin-left:2%;
-    font-size:15px;
+    font-size:25px;
 }
 .measure{
     height:400%;
     margin-left:10%;
-    margin-top:5%;
+    margin-top:7%;
     border:none;
 }
 .measure img{
@@ -708,7 +715,7 @@ h5{
     margin-left:-5%;
 }
 .footer{
-    margin-top:72%;
+    margin-top:65%;
     padding:23px;
 }
 }
@@ -938,7 +945,7 @@ h3{
         width:50%;
     }
     .footer{
-        margin-top:55%;
+        margin-top:50%;
         padding:23px;
     }
 }
@@ -1136,7 +1143,7 @@ h3{
     width:50%;
 }
 .footer{
-    margin-top:110%;
+    margin-top:100%;
     padding:43px;
 }
 }
