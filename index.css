@@ -484,7 +484,7 @@ h6{
     margin-top:5px;
 }
 .content2{
-    height:9000px;
+    height:8110px;
 }
 .content2 .heading{
     left:15px;
@@ -632,12 +632,12 @@ font-weight:bolder;
     margin-left:5%;
     margin-top:7%;
 }
-.transmission{
+#transmission{
     margin-left:15px;
     color:red;
     font-size:33px;
     }
-    .trans-2{
+    #trans-2{
         margin-left:15px;
     }
 #one{
@@ -661,27 +661,28 @@ font-weight:bolder;
 }
 #prevention{
     margin-left: 8%;
+    font-size:30px;
 }
 .prevent h2{
     color:skyblue;
     width:100%;
-    font-size:1.3em;
+    font-size:26px;
     margin-left:8%;
     margin-top: 5%;
 
 }
 .prevent p{
-    font-size:1.2em;
-    width:65%;
+    font-size:1.5em;
+    width:85%;
     margin-left:10%;
 }
 .safe{
-    font-size:20px;
+    font-size:25px;
     text-align:left;
     margin-left:8%;
 }
 .safe p{
-    font-size:17px;
+    font-size:22px;
     margin-left:1%;
     margin-top:2%;
 }
@@ -698,9 +699,8 @@ font-weight:bolder;
 }
 .measure img{
     margin-top:2%;
-
-    height:50%;
-    width:50%;
+    height:60%;
+    width:80%;
 }
 .myths h1{
     font-size:1.8rem;
@@ -715,7 +715,7 @@ h5{
     margin-left:-5%;
 }
 .footer{
-    margin-top:65%;
+    margin-top:62%;
     padding:23px;
 }
 }
