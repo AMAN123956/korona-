@@ -476,14 +476,15 @@ h6{
       width:100px;
   }
   h1{
-      font-size:50px;
+      font-size:60px;
       margin-left:5px;
       margin-top:140px;
   }
   h3{
-      font-size:20px;
-      margin-left:12px;
+      font-size:40px;
+      margin-left:8px;
       margin-top:20px;
+      letter-spacing:0rem;
   }
   .lead{
     margin-left: 15px;
@@ -674,7 +675,7 @@ color:yellow;
     font-size:30px;
 }
 .prevent h2{
-    color:skyblue;
+    color:yellow;
     width:100%;
     font-size:26px;
     margin-left:8%;
