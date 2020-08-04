@@ -1,6 +1,6 @@
 body{
     width:100%;
-    background-color: slateblue;
+    background-color:slateblue;
 }
 
 .grid-x{
@@ -8,17 +8,17 @@ body{
     margin-top:10%;
 }
 p{ font-size:2rem;
-    color:skyblue;
+ /*    color:skyblue; */
+    color:black;
     margin-left:20% ;
 }
 h1{
     color:white;
     font-size:4rem;
     margin-left:15%;
-    -webkit-text-stroke: 1px purple;
-    text-shadow: 5px 5px 3px blue;
+   /* -webkit-text-stroke: 1px purple; 
+    text-shadow: 5px 5px 3px blue; */
 }
-
 
 @media screen and (max-width:480px)
 {
