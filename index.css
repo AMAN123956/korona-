@@ -97,8 +97,10 @@ span{
 
 /* Content 2 */
 .content2 {
-    background-color:rgb(27, 34, 58);
-    
+  /*  background-color:rgb(27, 34, 58);
+    opacity:0.9;
+    */
+    background-color: black;
     margin-top:100px;
     
     height:6000px;
@@ -116,8 +118,9 @@ span{
 .sub-heading{
     color:transparent;
     font-size:60px;
-    -webkit-text-stroke: 1px red;
-     text-shadow:3px 2px 2px transparent;
+  /*  -webkit-text-stroke: 1px red;
+     text-shadow:3px 2px 2px transparent; */
+     color:red;
      clear: both;
      line-height: 1.2em;
      -webkit-font-smoothing: antialiased;
@@ -125,9 +128,10 @@ span{
       margin-left:80px;
 }
 #primary{
-    color:transparent;
+  /*  color:transparent; */
+  color:yellow;
     font-size:60px;
-    -webkit-text-stroke: 1px yellow;
+  /*  -webkit-text-stroke: 1px yellow; */
   /*  text-shadow: 12px 20.785px 9px rgba(165, 17, 66, 0.63); */
      clear: both;
      line-height: 1.2em;
@@ -302,14 +306,15 @@ strong{
   
   color:transparent;
   text-transform: capitalize;
-  -webkit-text-stroke: 1px violet;
-  text-shadow: 12px 20.785px 9px rgba(6, 13, 53, 0.63);
+ /* -webkit-text-stroke: 1px violet;
+  text-shadow: 12px 20.785px 9px rgba(6, 13, 53, 0.63); */
+  color:red;
    clear: both;
    line-height: 1.2em;
    -webkit-font-smoothing: antialiased;
 }
 .transmit{
-    color:skyblue;
+    color:white;
     font-size:1.6em;
     width:75%;
     margin-left:13%;
@@ -338,7 +343,7 @@ strong{
     width:100%;
 }
 .prevent h2{
-    color:skyblue;
+    color:yellow;
     margin-left:30%;
     margin-top:5%;
     font-size:2.5em;
@@ -354,6 +359,7 @@ strong{
     
     width:90%;
     height:30%;
+    border:2px solid white;
     margin-left:5%;
     margin-top:5%;
     
@@ -368,7 +374,7 @@ strong{
     margin-left:5%;
 }
 .safe {
-    color:skyblue;
+    color:yellow;
     font-size:50px;
     text-align:center;
     margin-top:15%;
@@ -388,6 +394,7 @@ strong{
 .last-section{
    margin-top:20%;
    margin-left:15%;
+   
    color:white;
 }
 .myths h1{
@@ -400,7 +407,7 @@ strong{
 }
 
 h5{
-    color:skyblue;
+    color:yellow;
     font-family:'Times New Roman', Times, serif;
     font-size:3.5rem;
     margin-left:11%;
@@ -415,14 +422,16 @@ td{
     color:green;
 } 
 table{
+    
     margin-left:-8%;
     margin-top:5%;
+    
     border:3px solid red;
     box-shadow:5px 5px 3px skyblue;
     
 }
 td{
-    background-color: yellow;
+    background-color: white;
     font-weight: 600;
     border:2px solid white;
 }
@@ -436,7 +445,7 @@ th{
 .footer{
     text-align:center;
     background-color:white;
-    margin-top:33%;
+    margin-top:34%;
     height:40%;
 
     vertical-align: middle;
@@ -458,6 +467,7 @@ h6{
         width:100%;
         
     } */
+   
     
       a{
          font-size:13px;
@@ -487,7 +497,7 @@ h6{
     margin-top:5px;
 }
 .content2{
-    height:8110px;
+    height:8100px;
 }
 .content2 .heading{
     left:15px;
@@ -610,8 +620,6 @@ font-weight:bolder;
     position:relative;
     top:-100px;
     left:0px;
-  
-
 }
 .symptomps-images h6{
     margin-left:50px;
@@ -633,16 +641,15 @@ font-weight:bolder;
     font-size:1.2em;
     width:100%;
     margin-left:5%;
+    
     margin-top:7%;
+
 }
 #transmission{
-    margin-left:15px;
-    color:red;
-    font-size:33px;
-    }
-    #trans-2{
-        margin-left:15px;
-    }
+margin-left:15px;
+font-size:33px;
+color:yellow;
+}
 #one{
     margin-top:5%;
 }
@@ -686,8 +693,9 @@ font-weight:bolder;
 }
 .safe p{
     font-size:22px;
-    margin-left:1%;
+    font-weight:bolder;
     margin-top:2%;
+    margin-left:1%;
 }
 .safe li{
     color:white;
@@ -702,16 +710,18 @@ font-weight:bolder;
 }
 .measure img{
     margin-top:2%;
+
     height:60%;
     width:80%;
 }
 .myths h1{
     font-size:1.8rem;
     margin-left:-10%;
+    
 }
 .myths p{
-    margin-left:-5%;
-    font-size:1rem;
+    margin-left:-9%;
+    font-size:1.2rem;
 }
 h5{
     font-size:2.5rem;
@@ -924,7 +934,7 @@ h3{
     .safe{
         font-size:20px;
         text-align:left;
-        margin-left:5%;
+        margin-left:6%;
     }
     .safe p{
         font-size:15px;
@@ -948,7 +958,7 @@ h3{
         width:50%;
     }
     .footer{
-        margin-top:50%;
+        margin-top:68%;
         padding:23px;
     }
 }
@@ -1146,9 +1156,9 @@ h3{
     width:50%;
 }
 .footer{
-    margin-top:100%;
+    margin-top:115%;
     padding:43px;
 }
 }
-
+/* section-1 */
 
