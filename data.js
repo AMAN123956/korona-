@@ -5,7 +5,7 @@ const container = document.querySelector(".container");
 dataForm.addEventListener("submit", async(e) => {
     e.preventDefault();
     container.style.display="block";
-    jokeForm.style.display="none";
+    dataForm.style.display="none";
     const cityName = cityNameInput.value;
     const url = `https://disease.sh/v3/covid-19/countries/${cityName}`;
     const res = await fetch(url);
