@@ -1,0 +1,1 @@
+sitemap: https://lazy-corona.netlify.app/sitemap.xml
